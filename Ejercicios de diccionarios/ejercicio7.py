@@ -11,7 +11,10 @@ while continuar:
         continuar = True
     else:
         continuar = False
-total = sum(precio.values())
+total = 0
+for i in precio:
+    total += float(i)
+    sum(total)
 print("Los articulos ingresados son: ",articulos,"\nLos precios de dichos articulos son: ",precio,"\n y el precio totales es:",total)
 
 
